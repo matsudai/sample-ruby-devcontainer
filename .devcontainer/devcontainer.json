@@ -10,7 +10,8 @@
     }
   },
   "extensions": [
-    "rebornix.Ruby"
+    "rebornix.Ruby",
+    "bradlc.vscode-tailwindcss"
   ],
   "postCreateCommand": "bundle",
   "remoteUser": "ruby"

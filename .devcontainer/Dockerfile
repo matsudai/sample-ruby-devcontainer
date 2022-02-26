@@ -41,3 +41,5 @@ WORKDIR ${app_root}
 
 ENV BUNDLE_APP_CONFIG=${app_root}/.bundle
 ENV BUNDLE_PATH=${app_root}/vendor/bundle
+
+ENV PATH="${app_root}/bin:${PATH}"
