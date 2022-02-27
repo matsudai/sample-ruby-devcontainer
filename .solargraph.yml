@@ -1,0 +1,32 @@
+---
+include:
+- "**/*.rb"
+- "**/Rakefile"
+- "**/config.ru"
+exclude:
+- "bin/**/*"
+- "vendor/**/*"
+- ".bundle/**/*"
+require:
+- actioncable
+- actionmailer
+- actionpack
+- actionview
+- activejob
+- activemodel
+- activerecord
+- activestorage
+- activesupport
+domains: []
+reporters:
+- rubocop
+- require_not_found
+formatter:
+  rubocop:
+    cops: safe
+    except: []
+    only: []
+    extra_args: []
+require_paths: []
+plugins: []
+max_files: 5000

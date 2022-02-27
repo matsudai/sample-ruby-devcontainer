@@ -11,7 +11,9 @@
   },
   "extensions": [
     "rebornix.Ruby",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "castwide.solargraph",
+    "misogi.ruby-rubocop"
   ],
   "postCreateCommand": "bundle",
   "remoteUser": "ruby"
